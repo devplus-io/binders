@@ -1,6 +1,7 @@
 ---
 id: a582e7aa-451a-4d2a-8915-67f7eebdf3b0
 binder: binder-mvvle32a-1
+folder: folder-mvw0u7cf
 ---
 Security | internal-token auth hardening (2026-10-14 audit, landed 2026-10-23)
 
