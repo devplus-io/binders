@@ -1,6 +1,7 @@
 ---
 id: 543d1212-fd3d-41ba-9172-cc8298616919
 binder: binder-mvvle32a-1
+folder: folder-mvw0u6xp
 ---
 DevOps | devplus-platform/docs/AZURE_SETUP.md
 
