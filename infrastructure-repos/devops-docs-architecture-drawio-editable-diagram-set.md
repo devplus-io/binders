@@ -1,6 +1,7 @@
 ---
 id: 593d8816-5a32-4109-a314-b9137c404513
 binder: binder-mvvle32a-1
+folder: folder-mvw0u6iq
 ---
 DevOps | docs/architecture.drawio (editable diagram set)
 
