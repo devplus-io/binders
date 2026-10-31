@@ -1,6 +1,7 @@
 ---
 id: 37a5407a-1f48-48c5-a1e2-9704adb60b62
 binder: binder-mvvle32a-1
+folder: folder-mvw0u7ti
 ---
 SRE report · 2026-10-29
 # Infrastructure · Thursday, 29 October 2026
