@@ -1,6 +1,7 @@
 ---
 id: 0731873a-1607-42d9-87ec-90e993e5eb22
 binder: binder-mvvle32a-1
+folder: folder-mvw0u6xp
 ---
 DevOps | devplus-platform/docs/AWS_OIDC_SETUP.md
 
