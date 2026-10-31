@@ -1,0 +1,18 @@
+---
+id: 4e4dfc65-712d-48c2-8fc9-c345a4fe98a3
+binder: binder-mvvle32a-1
+folder: folder-mvw0u8o0
+---
+Proposal 013: architecture preview evidence, completed short specification
+
+Completed 26 October 2026 under idea 13's spec-only approval (7F51D9EE), as recorded in source note 220DEE4F-E13B-4BE5-B53F-C9DA87875CBF. Canonical deliverable: ~/Documents/DevPlus Architecture/proposals/013-architecture-preview-evidence.md. No code, GitHub issue, preview execution or production change. No new filing decision requested.
+
+Problem: saved architecture designs retain preview deployment ids without a durable per-component coverage record. The proposed panel separates actual plan state from configured-input coverage and staleness. A completed root plan can coexist with an unresolved dependent. Name matching is not evidence of an output-to-input binding. Provider unknowns remain possible; no panel status authorizes apply. Costs stay separate, so a pricing failure does not turn a successful plan into a failure or zero cost.
+
+Proposed design: server-owned configuration revision, a bounded latest-run evidence record per saved design, reserved component preview ids and safe reason codes. GET/POST preview-evidence under project-scoped architectures; POST reserves metadata rather than applying or creating infrastructure. Existing preview calls gain validated correlation and safe retry semantics. Executor records runtime provenance; expired-preview summaries retain it. Unknown or legacy evidence cannot turn green by inference. UI is a disclosure on the saved-design review, never an apply gate. No mock values, cross-state planning, automatic dependency waves or rehearsal environment.
+
+Current source evidence: agent-service 7266082, src/agent_service/domain/agents/tools/design_execution_tools.py:258-355 starts independent previews; domain/agents/architect_agent.py:1919-1944 waits for completed dependencies during execution, :2143-2161 name-matches outputs. Shared fdf993d models/architecture.go:49-75 carries the DAG/preview ids; models/previews.go:121-166 retains expired previews. Backend b0e3a3c services/architecture_service.go:172-201,285-313,357-369 needs stronger same-status update concurrency for revisions. Executor 74743d2 services/executor_service.go:973-1013 completes preview planning even if cost fails. Frontend e072f89 components/ai/ArchitecturePlanCard.tsx:54-80 lacks saved-design/evidence props. Source observations only; runtime and unpushed branches not inspected. Mirror sync/map refreshed, all 32 repos unchanged; no implemented architecture/diagram change.
+
+Prerequisite found and inspected: https://github.com/DevPlusInc/devplus-backend/issues/95 was OPEN on 26 October. Preview service accepts a connector without checking its project grant (services/deployment_service.go:223-256); do not enable expanded linked launches before that existing fix. No duplicate preview-evidence issue found in targeted backend/agent-service/frontend issue searches or open PR lists. Related #95 is a security prerequisite, not this panel's issue.
+
+Effort: two to three engineer-weeks after the connector fix, for backend/shared provenance and concurrency, executor/expiry metadata, agent integration, frontend and regression tests. Estimate excludes a binding editor or cross-state engine. Tests cover mixed root/dependent coverage, stale concurrent edits, idempotency/uncertain launch, authorization, secret-free metadata, expiry/restart and accessible non-colour states. Full spec passed writing check with no findings and no en/em dashes. Completion is not a new issue conversion or shipped feature. Rejected proposal 012 remains closed, and its non-sensitive-first restriction was not adopted.
