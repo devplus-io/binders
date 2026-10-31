@@ -1,6 +1,7 @@
 ---
 id: 5df5ee79-6284-4716-b0dd-c36ed5a27ea3
 binder: binder-mvvle32a-1
+folder: folder-mvw0u7cf
 ---
 DevOps | devplus-github-settings/SOC2-CONTROLS.md
 
