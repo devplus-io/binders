@@ -1,6 +1,7 @@
 ---
 id: 4243fa80-1e60-4ce7-b1f1-d53e66ff6935
 binder: binder-mvvle32a-1
+folder: folder-mvw0u6xp
 ---
 DevOps | devplus-platform/docs/GCP_SETUP.md
 
