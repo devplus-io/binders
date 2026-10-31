@@ -1,6 +1,7 @@
 ---
 id: b757bb98-b76b-464b-83ac-6bebd83466b9
 binder: binder-mvvle32a-1
+folder: folder-mvw0u7ti
 ---
 SRE report · 2026-10-27
 
