@@ -1,0 +1,9 @@
+---
+id: d535a1a7-d896-4d3b-8aaf-4db5e8aa9646
+binder: binder-mvvle32a-1
+---
+Ignite merchandise: lodging hand-carry limitations, checked 2026-10-24
+
+Source: https://www.freemanco.com/documents/labor-jurisdictions?showId=544352&venueId=100002278&branchId=129&city=SAN%20FRANCISCO-CA&documentName=Labor%20Jurisdictions ; https://moscone.com/freight-handling
+
+Official pages read 2026-10-24. Freeman's Microsoft Ignite 2026 Union Jurisdictions document states: "You may hand carry only what you can manage by yourself (one person) in one trip, using no equipment." It gives Teamsters jurisdiction over unloading/reloading and material-handling equipment including dollies and hand trucks; hand-carried material must use a show-management-designated entrance rather than the freight entrance. It states: "Current union jurisdiction precludes hotel personnel from delivering material to exhibit booths." Moscone Freight Handling independently limits small-item hand carry to a single trip, prohibits carts/dollies through lobby areas or on passenger elevators/escalators, prohibits curb parking, and requires GSC coordination of loading-dock/POV activity. Implication for DevPlus goal f286734e: lodging plus self-operated cart/hotel porter delivery is not a supported free-dr ayage workaround. Keep lodging conditional on actual box dimensions/weights, written receiving policy/fees, compliant last-mile arrangements and applicable handling charges. Do not assume splitting shipment among team members is an allowed exception. No quote, booking or outreach was performed in this session. Existing Freeman inquiry card C584CFCA-A9B7-407D-8391-112D61948E33 was rejected in the conversation, not pending; stale plan/board notes were corrected without recreating the inquiry. Updated artifact: /Users/helderfeixas/Documents/DevPlus/Ignite-2026-freight-plan.md.
