@@ -1,6 +1,7 @@
 ---
 id: 5b50c963-25fb-424c-915e-999cd0a9a704
 binder: binder-mvvle32a-1
+folder: folder-mvw0u7ti
 ---
 SRE report · 2026-09-25-ama-memory-review
 
