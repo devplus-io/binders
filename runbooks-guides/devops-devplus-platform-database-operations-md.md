@@ -1,6 +1,7 @@
 ---
 id: ee683c51-8ba4-410a-9263-7b787780b2d5
 binder: binder-mvvle32a-1
+folder: folder-mvw0u6xp
 ---
 DevOps | devplus-platform/DATABASE_OPERATIONS.md
 
