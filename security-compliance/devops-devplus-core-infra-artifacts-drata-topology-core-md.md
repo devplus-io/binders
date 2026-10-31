@@ -1,6 +1,7 @@
 ---
 id: eede8529-e196-428a-b258-06777074d0fb
 binder: binder-mvvle32a-1
+folder: folder-mvw0u7cf
 ---
 DevOps | devplus-core-infra/artifacts/drata-topology-core.md
 
