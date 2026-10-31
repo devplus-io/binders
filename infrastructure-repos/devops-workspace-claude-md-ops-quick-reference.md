@@ -1,6 +1,7 @@
 ---
 id: 0388dc62-61d0-425c-bfd0-4103a63bc555
 binder: binder-mvvle32a-1
+folder: folder-mvw0u6iq
 ---
 DevOps | workspace CLAUDE.md (ops quick reference)
 
